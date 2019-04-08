@@ -1,0 +1,23 @@
+{
+  "name": "book2server",
+  "version": "1.0.0",
+  "description": "Backend for book2 react js web app",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "body-parser-xml": "^1.1.0",
+    "express": "^4.16.4",
+    "htmlparser": "^1.7.7",
+    "jsdom": "^14.0.0",
+    "request": "^2.88.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
